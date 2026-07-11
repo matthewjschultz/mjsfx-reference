@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "name": "PreSonus FaderPort v2",
+  "revision": 1,
+  "notes": "No special setup. The endpoint enumerates as PreSonus FP2.",
+  "match": {
+    "name": "FP2"
+  },
+  "relativeEncoding": {
+    "type": "signMagnitude",
+    "signBit": 6,
+    "signSetIsNegative": true,
+    "magnitudeMask": 63
+  },
+  "feedback": {
+    "buttonLED": {
+      "supported": true,
+      "onVelocity": 127,
+      "offVelocity": 0,
+      "flashVelocity": 1
+    },
+    "buttonColor": {
+      "model": "rgbNotes",
+      "channels": {
+        "red": 2,
+        "green": 3,
+        "blue": 4
+      },
+      "buttons": [
+        5,
+        42,
+        54,
+        56,
+        74,
+        75,
+        77
+      ]
+    }
+  },
+  "keymap": {
+    "notes": {
+      "0": "ARM",
+      "3": "BYPASS",
+      "5": "LINK",
+      "8": "SOLO",
+      "16": "MUTE",
+      "32": "ENCODER BUTTON",
+      "42": "PAN",
+      "46": "PREV",
+      "47": "NEXT",
+      "54": "CHANNEL",
+      "56": "SCROLL",
+      "58": "MASTER",
+      "59": "CLICK",
+      "60": "SECTION",
+      "61": "MARKER",
+      "70": "SHIFT",
+      "74": "READ",
+      "75": "WRITE",
+      "77": "TOUCH",
+      "86": "LOOP",
+      "91": "REW",
+      "92": "FFW",
+      "93": "STOP",
+      "94": "PLAY",
+      "95": "REC",
+      "102": "FOOTSWITCH",
+      "104": "FADER TOUCH"
+    },
+    "ccs": {
+      "16": "ENCODER"
+    },
+    "pitchBend": "FADER"
+  }
+}

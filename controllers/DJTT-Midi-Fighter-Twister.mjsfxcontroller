@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "name": "DJTT Midi Fighter Twister",
+  "revision": 1,
+  "notes": "Assumes factory defaults: switches in CC Hold, absolute encoders, and the Classic color map (the Expanded map needs different palette anchors).",
+  "match": {
+    "name": "Twister"
+  },
+  "feedback": {
+    "buttonLED": {
+      "supported": true,
+      "onVelocity": 127,
+      "offVelocity": 0,
+      "flashVelocity": 0
+    },
+    "buttonColor": {
+      "model": "paletteCC",
+      "channel": 2,
+      "buttons": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "palette": [
+        {
+          "value": 1,
+          "red": 0,
+          "green": 0,
+          "blue": 127
+        },
+        {
+          "value": 16,
+          "red": 0,
+          "green": 127,
+          "blue": 127
+        },
+        {
+          "value": 21,
+          "red": 0,
+          "green": 127,
+          "blue": 96
+        },
+        {
+          "value": 42,
+          "red": 0,
+          "green": 127,
+          "blue": 0
+        },
+        {
+          "value": 53,
+          "red": 64,
+          "green": 127,
+          "blue": 0
+        },
+        {
+          "value": 64,
+          "red": 127,
+          "green": 127,
+          "blue": 0
+        },
+        {
+          "value": 75,
+          "red": 127,
+          "green": 64,
+          "blue": 0
+        },
+        {
+          "value": 85,
+          "red": 127,
+          "green": 0,
+          "blue": 0
+        },
+        {
+          "value": 95,
+          "red": 127,
+          "green": 0,
+          "blue": 64
+        },
+        {
+          "value": 106,
+          "red": 96,
+          "green": 0,
+          "blue": 127
+        },
+        {
+          "value": 116,
+          "red": 48,
+          "green": 0,
+          "blue": 127
+        }
+      ]
+    }
+  }
+}
