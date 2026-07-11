@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "laser-shoot",
+  "name": "Laser / Shoot",
+  "icon": "bolt.fill",
+  "author": "mjsfx.core",
+  "order": 2,
+  "steps": [
+    { "set": "waveType", "expr": ["rand", 0, 2] },
+    { "if": ["&&", ["==", ["ref", "waveType"], 2], ["rndBool"]], "then": [
+        { "set": "waveType", "expr": ["rndBool"] }
+    ]},
+    { "set": "baseFreq",  "expr": ["+", 0.5, ["frnd", 0.5]] },
+    { "set": "freqLimit", "expr": ["-", ["-", ["ref", "baseFreq"], 0.2], ["frnd", 0.6]] },
+    { "if": ["<", ["ref", "freqLimit"], 0.2], "then": [
+        { "set": "freqLimit", "value": 0.2 }
+    ]},
+    { "set": "freqRamp", "expr": ["-", -0.15, ["frnd", 0.2]] },
+    { "if": ["==", ["rand", 0, 2], 0], "then": [
+        { "set": "baseFreq",  "expr": ["+", 0.3, ["frnd", 0.6]] },
+        { "set": "freqLimit", "expr": ["frnd", 0.1] },
+        { "set": "freqRamp",  "expr": ["-", -0.35, ["frnd", 0.3]] }
+    ]},
+    { "if": ["rndBool"], "then": [
+        { "set": "duty",     "expr": ["frnd", 0.5] },
+        { "set": "dutyRamp", "expr": ["frnd", 0.2] }
+    ], "else": [
+        { "set": "duty",     "expr": ["+", 0.4, ["frnd", 0.5]] },
+        { "set": "dutyRamp", "expr": ["-", ["frnd", 0.7]] }
+    ]},
+    { "set": "envAttack",  "value": 0 },
+    { "set": "envSustain", "expr": ["+", 0.1, ["frnd", 0.2]] },
+    { "set": "envDecay",   "expr": ["frnd", 0.4] },
+    { "if": ["rndBool"], "then": [
+        { "set": "envPunch", "expr": ["frnd", 0.3] }
+    ]},
+    { "if": ["==", ["rand", 0, 2], 0], "then": [
+        { "set": "phaOffset", "expr": ["frnd", 0.2] },
+        { "set": "phaRamp",   "expr": ["-", ["frnd", 0.2]] }
+    ]},
+    { "if": ["rndBool"], "then": [
+        { "set": "hpfFreq", "expr": ["frnd", 0.3] }
+    ]}
+  ]
+}

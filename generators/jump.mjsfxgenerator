@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "jump",
+  "name": "Jump",
+  "icon": "arrow.up.to.line",
+  "author": "mjsfx.core",
+  "order": 6,
+  "steps": [
+    { "set": "waveType",   "value": 0 },
+    { "set": "duty",       "expr": ["frnd", 0.6] },
+    { "set": "baseFreq",   "expr": ["+", 0.3, ["frnd", 0.3]] },
+    { "set": "freqRamp",   "expr": ["+", 0.1, ["frnd", 0.2]] },
+    { "set": "envAttack",  "value": 0 },
+    { "set": "envSustain", "expr": ["+", 0.1, ["frnd", 0.3]] },
+    { "set": "envDecay",   "expr": ["+", 0.1, ["frnd", 0.2]] },
+    { "if": ["rndBool"], "then": [
+        { "set": "hpfFreq", "expr": ["frnd", 0.3] }
+    ]},
+    { "if": ["rndBool"], "then": [
+        { "set": "lpfFreq", "expr": ["-", 1.0, ["frnd", 0.6]] }
+    ]}
+  ]
+}

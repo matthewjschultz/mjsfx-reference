@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "hit-hurt",
+  "name": "Hit / Hurt",
+  "icon": "burst",
+  "author": "mjsfx.core",
+  "order": 5,
+  "steps": [
+    { "set": "waveType", "expr": ["rand", 0, 2] },
+    { "if": ["==", ["ref", "waveType"], 2], "then": [
+        { "set": "waveType", "value": 3 }
+    ]},
+    { "if": ["==", ["ref", "waveType"], 0], "then": [
+        { "set": "duty", "expr": ["frnd", 0.6] }
+    ]},
+    { "set": "baseFreq",   "expr": ["+", 0.2, ["frnd", 0.6]] },
+    { "set": "freqRamp",   "expr": ["-", -0.3, ["frnd", 0.4]] },
+    { "set": "envAttack",  "value": 0 },
+    { "set": "envSustain", "expr": ["frnd", 0.1] },
+    { "set": "envDecay",   "expr": ["+", 0.1, ["frnd", 0.2]] },
+    { "if": ["rndBool"], "then": [
+        { "set": "hpfFreq", "expr": ["frnd", 0.3] }
+    ]}
+  ]
+}

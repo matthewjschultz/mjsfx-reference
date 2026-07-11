@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pickup-coin",
+  "name": "Pickup / Coin",
+  "icon": "circle.circle",
+  "author": "mjsfx.core",
+  "order": 1,
+  "steps": [
+    { "set": "baseFreq",   "expr": ["+", 0.4, ["frnd", 0.5]] },
+    { "set": "envAttack",  "value": 0 },
+    { "set": "envSustain", "expr": ["frnd", 0.1] },
+    { "set": "envDecay",   "expr": ["+", 0.1, ["frnd", 0.4]] },
+    { "set": "envPunch",   "expr": ["+", 0.3, ["frnd", 0.3]] },
+    { "if": ["rndBool"], "then": [
+        { "set": "arpSpeed", "expr": ["+", 0.5, ["frnd", 0.2]] },
+        { "set": "arpMod",   "expr": ["+", 0.2, ["frnd", 0.4]] }
+    ]}
+  ]
+}

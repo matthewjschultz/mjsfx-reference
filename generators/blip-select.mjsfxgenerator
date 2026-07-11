@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "blip-select",
+  "name": "Blip / Select",
+  "icon": "square.grid.2x2",
+  "author": "mjsfx.core",
+  "order": 7,
+  "steps": [
+    { "set": "waveType", "expr": ["rndBool"] },
+    { "if": ["==", ["ref", "waveType"], 0], "then": [
+        { "set": "duty", "expr": ["frnd", 0.6] }
+    ]},
+    { "set": "baseFreq",   "expr": ["+", 0.2, ["frnd", 0.4]] },
+    { "set": "envAttack",  "value": 0 },
+    { "set": "envSustain", "expr": ["+", 0.1, ["frnd", 0.1]] },
+    { "set": "envDecay",   "expr": ["frnd", 0.2] },
+    { "set": "hpfFreq",    "value": 0.1 }
+  ]
+}

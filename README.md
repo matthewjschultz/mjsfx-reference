@@ -1,11 +1,13 @@
 # mjsfx-reference
 
-The canonical reference files for [MJSFX](https://mjsfx.app), the macOS designer for 8-bit game
-sound effects.
+The canonical reference files for [MJSFX](https://mjsfx.app), the macOS design studio for game
+sounds and effects.
 
 | Folder | Contents |
 |---|---|
 | `controllers/` | The bundled `.mjsfxcontroller` configs, byte-identical to the copies inside the shipping app |
+| `generators/` | The bundled `.mjsfxgenerator` recipes, the app's built-in generator buttons |
+| `themes/` | The bundled `.mjsfxtheme` files, the app's built-in theme set |
 | `sounds/` | Example `.mjsfx` sounds used by the format documentation |
 
 Every file format is documented at [mjsfx.app/reference](https://mjsfx.app/reference), complete
