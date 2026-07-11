@@ -1,0 +1,40 @@
+{
+  "formatVersion": 2,
+  "id": "07E13BFF-20F6-43A7-9922-759BE21C022D",
+  "name": "alien contact",
+  "composition": {
+    "masterGain": 1,
+    "layers": [
+      {
+        "id": "1F2E3D4C-5B6A-4798-8899-AABBCCDDEEFF",
+        "name": "Layer 1",
+        "gain": 0.16,
+        "muted": false,
+        "colorIndex": 5,
+        "startOffsetSec": 0,
+        "patch": {
+          "source": {
+            "slug": "classic",
+            "schemaVersion": 1,
+            "data": { "core": { "baseFreq": 0.12, "envDecay": 0.4, "waveType": 2 } }
+          },
+          "fx": {
+            "units": [
+              {
+                "id": "86503856-C3C0-4590-9175-CAA4AA8EA307",
+                "module": {
+                  "slug": "distortion",
+                  "schemaVersion": 1,
+                  "data": { "drive": 0.92, "mix": 1, "enabled": true }
+                }
+              }
+            ]
+          },
+          "modulators": { "units": [] }
+        }
+      }
+    ],
+    "fx": { "units": [] },
+    "modulators": { "units": [] }
+  }
+}
