@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "explosion",
+  "name": "Explosion",
+  "icon": "flame.fill",
+  "author": "mjsfx.core",
+  "order": 3,
+  "steps": [
+    { "set": "waveType", "value": 3 },
+    { "if": ["rndBool"], "then": [
+        { "set": "baseFreq", "expr": ["+", 0.1, ["frnd", 0.4]] },
+        { "set": "freqRamp", "expr": ["+", -0.1, ["frnd", 0.4]] }
+    ], "else": [
+        { "set": "baseFreq", "expr": ["+", 0.2, ["frnd", 0.7]] },
+        { "set": "freqRamp", "expr": ["-", -0.2, ["frnd", 0.2]] }
+    ]},
+    { "set": "baseFreq", "expr": ["*", ["ref", "baseFreq"], ["ref", "baseFreq"]] },
+    { "if": ["==", ["rand", 0, 4], 0], "then": [
+        { "set": "freqRamp", "value": 0 }
+    ]},
+    { "if": ["==", ["rand", 0, 2], 0], "then": [
+        { "set": "repeatSpeed", "expr": ["+", 0.3, ["frnd", 0.5]] }
+    ]},
+    { "set": "envAttack",  "value": 0 },
+    { "set": "envSustain", "expr": ["+", 0.1, ["frnd", 0.3]] },
+    { "set": "envDecay",   "expr": ["frnd", 0.5] },
+    { "if": ["==", ["rndBool"], 0], "then": [
+        { "set": "phaOffset", "expr": ["+", -0.3, ["frnd", 0.9]] },
+        { "set": "phaRamp",   "expr": ["-", ["frnd", 0.3]] }
+    ]},
+    { "set": "envPunch", "expr": ["+", 0.2, ["frnd", 0.6]] },
+    { "if": ["rndBool"], "then": [
+        { "set": "vibStrength", "expr": ["frnd", 0.7] },
+        { "set": "vibSpeed",    "expr": ["frnd", 0.6] }
+    ]},
+    { "if": ["==", ["rand", 0, 2], 0], "then": [
+        { "set": "arpSpeed", "expr": ["+", 0.6, ["frnd", 0.3]] },
+        { "set": "arpMod",   "expr": ["-", 0.8, ["frnd", 1.6]] }
+    ]}
+  ]
+}

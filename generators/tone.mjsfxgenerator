@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "tone",
+  "name": "Tone",
+  "icon": "tuningfork",
+  "author": "mjsfx.core",
+  "order": 9,
+  "steps": [
+    { "set": "baseFreq",   "expr": ["+", 0.3, ["frnd", 0.3]] },
+    { "set": "envAttack",  "value": 0 },
+    { "set": "envSustain", "expr": ["+", 0.2, ["frnd", 0.3]] },
+    { "set": "envDecay",   "expr": ["+", 0.1, ["frnd", 0.2]] }
+  ]
+}

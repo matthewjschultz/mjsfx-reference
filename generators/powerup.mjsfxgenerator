@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "powerup",
+  "name": "Power-up",
+  "icon": "arrow.up.circle.fill",
+  "author": "mjsfx.core",
+  "order": 4,
+  "steps": [
+    { "if": ["rndBool"], "then": [
+        { "set": "waveType", "value": 1 }
+    ], "else": [
+        { "set": "duty", "expr": ["frnd", 0.6] }
+    ]},
+    { "if": ["rndBool"], "then": [
+        { "set": "baseFreq",    "expr": ["+", 0.2, ["frnd", 0.3]] },
+        { "set": "freqRamp",    "expr": ["+", 0.1, ["frnd", 0.4]] },
+        { "set": "repeatSpeed", "expr": ["+", 0.4, ["frnd", 0.4]] }
+    ], "else": [
+        { "set": "baseFreq", "expr": ["+", 0.2, ["frnd", 0.3]] },
+        { "set": "freqRamp", "expr": ["+", 0.05, ["frnd", 0.2]] },
+        { "if": ["rndBool"], "then": [
+            { "set": "vibStrength", "expr": ["frnd", 0.7] },
+            { "set": "vibSpeed",    "expr": ["frnd", 0.6] }
+        ]}
+    ]},
+    { "set": "envAttack",  "value": 0 },
+    { "set": "envSustain", "expr": ["frnd", 0.4] },
+    { "set": "envDecay",   "expr": ["+", 0.1, ["frnd", 0.4]] }
+  ]
+}

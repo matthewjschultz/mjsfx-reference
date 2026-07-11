@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "randomize",
+  "name": "Random",
+  "icon": "dice.fill",
+  "author": "mjsfx.core",
+  "order": 8,
+  "steps": [
+    { "set": "randSeed", "expr": ["rand", 0, 65534] },
+    { "set": "baseFreq", "expr": ["pow", ["-", ["frnd", 2.0], 1.0], 2.0] },
+    { "if": ["rndBool"], "then": [
+        { "set": "baseFreq", "expr": ["+", ["pow", ["-", ["frnd", 2.0], 1.0], 3.0], 0.5] }
+    ]},
+    { "set": "freqLimit", "value": 0 },
+    { "set": "freqRamp",  "expr": ["pow", ["-", ["frnd", 2.0], 1.0], 5.0] },
+    { "if": ["&&", [">", ["ref", "baseFreq"], 0.7], [">", ["ref", "freqRamp"], 0.2]], "then": [
+        { "set": "freqRamp", "expr": ["-", ["ref", "freqRamp"]] }
+    ]},
+    { "if": ["&&", ["<", ["ref", "baseFreq"], 0.2], ["<", ["ref", "freqRamp"], -0.05]], "then": [
+        { "set": "freqRamp", "expr": ["-", ["ref", "freqRamp"]] }
+    ]},
+    { "set": "freqDramp",   "expr": ["pow", ["-", ["frnd", 2.0], 1.0], 3.0] },
+    { "set": "duty",        "expr": ["-", ["frnd", 2.0], 1.0] },
+    { "set": "dutyRamp",    "expr": ["pow", ["-", ["frnd", 2.0], 1.0], 3.0] },
+    { "set": "vibStrength", "expr": ["pow", ["-", ["frnd", 2.0], 1.0], 3.0] },
+    { "set": "vibSpeed",    "expr": ["-", ["frnd", 2.0], 1.0] },
+    { "set": "envAttack",   "expr": ["pow", ["-", ["frnd", 2.0], 1.0], 3.0] },
+    { "set": "envSustain",  "expr": ["pow", ["-", ["frnd", 2.0], 1.0], 2.0] },
+    { "set": "envDecay",    "expr": ["-", ["frnd", 2.0], 1.0] },
+    { "set": "envPunch",    "expr": ["pow", ["frnd", 0.8], 2.0] },
+    { "if": ["<", ["+", ["+", ["ref", "envAttack"], ["ref", "envSustain"]], ["ref", "envDecay"]], 0.2], "then": [
+        { "set": "envSustain", "expr": ["+", ["ref", "envSustain"], ["+", 0.2, ["frnd", 0.3]]] },
+        { "set": "envDecay",   "expr": ["+", ["ref", "envDecay"],   ["+", 0.2, ["frnd", 0.3]]] }
+    ]},
+    { "set": "lpfResonance", "expr": ["-", ["frnd", 2.0], 1.0] },
+    { "set": "lpfFreq",      "expr": ["-", 1.0, ["pow", ["frnd", 1.0], 3.0]] },
+    { "set": "lpfRamp",      "expr": ["pow", ["-", ["frnd", 2.0], 1.0], 3.0] },
+    { "if": ["&&", ["<", ["ref", "lpfFreq"], 0.1], ["<", ["ref", "lpfRamp"], -0.05]], "then": [
+        { "set": "lpfRamp", "expr": ["-", ["ref", "lpfRamp"]] }
+    ]},
+    { "set": "hpfFreq",   "expr": ["pow", ["frnd", 1.0], 5.0] },
+    { "set": "hpfRamp",   "expr": ["pow", ["-", ["frnd", 2.0], 1.0], 5.0] },
+    { "set": "phaOffset", "expr": ["pow", ["-", ["frnd", 2.0], 1.0], 3.0] },
+    { "set": "phaRamp",   "expr": ["pow", ["-", ["frnd", 2.0], 1.0], 3.0] },
+    { "set": "repeatSpeed", "expr": ["-", ["frnd", 2.0], 1.0] },
+    { "set": "arpSpeed",  "expr": ["-", ["frnd", 2.0], 1.0] },
+    { "set": "arpMod",    "expr": ["-", ["frnd", 2.0], 1.0] }
+  ]
+}
