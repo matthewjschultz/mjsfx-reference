@@ -9,6 +9,7 @@ sounds and effects.
 | `generators/` | The bundled `.mjsfxgenerator` recipes, the app's built-in generator buttons |
 | `themes/` | The bundled `.mjsfxtheme` files, the app's built-in theme set |
 | `sounds/` | Example `.mjsfx` sounds used by the format documentation |
+| `sounds/toast-juggle/` | The six Toast Juggle game sounds, generated from the real game's recipes (tools/tj-render) — the original proof that MJSFX can build a shipping game's audio |
 | `midi/` | Example `.mjsfxmidi` profiles from the MIDI documentation |
 
 Every file format is documented at [mjsfx.app/reference](https://mjsfx.app/reference), complete
