@@ -9,7 +9,7 @@
       {
         "colorIndex" : 0,
         "gain" : 0.8,
-        "id" : "6DEC9F2F-5AA9-4283-8F77-8BF4F17981F2",
+        "id" : "0E2D96F7-C10D-4600-9BC4-252556A8667C",
         "muted" : false,
         "name" : "120Hz",
         "patch" : {
@@ -64,7 +64,7 @@
       {
         "colorIndex" : 1,
         "gain" : 1,
-        "id" : "48B1B0DE-510F-41D7-9FA2-527501F911B4",
+        "id" : "795FC2A8-F7BE-48C8-8B49-92648F9752BE",
         "muted" : false,
         "name" : "200Hz",
         "patch" : {
@@ -119,7 +119,7 @@
       {
         "colorIndex" : 2,
         "gain" : 1,
-        "id" : "3212ADB9-1C65-4133-A3F8-D084875DD741",
+        "id" : "D40B2CA4-A911-4108-9CC7-C0CFB8FE5D52",
         "muted" : false,
         "name" : "300Hz",
         "patch" : {
@@ -180,6 +180,6 @@
     }
   },
   "formatVersion" : 2,
-  "id" : "6C37C790-53EF-4452-A82D-AE449774ABFC",
-  "name" : "tj-start-round"
+  "id" : "8F12045B-287F-490F-9457-F068BB99DE79",
+  "name" : "toast-juggle-start-round"
 }

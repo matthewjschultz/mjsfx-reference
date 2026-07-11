@@ -9,7 +9,7 @@
       {
         "colorIndex" : 0,
         "gain" : 0.7060661143356832,
-        "id" : "2BE59011-39D6-4922-8ABB-4C950DBEBC73",
+        "id" : "74D3028B-6722-41AF-8076-D67B40CEE523",
         "muted" : false,
         "name" : "1800Hz",
         "patch" : {
@@ -64,7 +64,7 @@
       {
         "colorIndex" : 1,
         "gain" : 0.014602439596300448,
-        "id" : "217A57DD-F7F4-4A49-A02A-81884944715B",
+        "id" : "91C5B5CF-608C-4DE8-8E51-75ED0E4262C3",
         "muted" : false,
         "name" : "55Hz",
         "patch" : {
@@ -119,7 +119,7 @@
       {
         "colorIndex" : 2,
         "gain" : 0.11418618038854528,
-        "id" : "C8A73296-F7E6-40C7-8DED-C5C587C268C8",
+        "id" : "6E8401C5-BF3D-4623-811E-0237C3EF46A4",
         "muted" : false,
         "name" : "110Hz",
         "patch" : {
@@ -174,7 +174,7 @@
       {
         "colorIndex" : 3,
         "gain" : 0.4584289317380073,
-        "id" : "AC51A3FA-9498-4571-96B0-18447EE38136",
+        "id" : "1A5A9989-1158-4AB9-AB3C-5139F465F32B",
         "muted" : false,
         "name" : "220Hz",
         "patch" : {
@@ -229,7 +229,7 @@
       {
         "colorIndex" : 4,
         "gain" : 0.9449326091052457,
-        "id" : "8F6706C5-1B7E-42F7-A14D-7BF0FF8416F9",
+        "id" : "3C6C05C9-A5EB-4699-9097-0AE2A64C27EE",
         "muted" : false,
         "name" : "440Hz",
         "patch" : {
@@ -284,7 +284,7 @@
       {
         "colorIndex" : 5,
         "gain" : 1,
-        "id" : "E91B4458-BF69-4EE8-A6A5-7A1A70ACEAB0",
+        "id" : "E4E39D49-1269-4329-9ED2-854F87ADFE76",
         "muted" : false,
         "name" : "880Hz",
         "patch" : {
@@ -339,7 +339,7 @@
       {
         "colorIndex" : 6,
         "gain" : 0.5433372857337893,
-        "id" : "1BDD6E25-F91D-4F0A-A889-802BF4EDE9ED",
+        "id" : "F441238F-E57F-4DE4-943F-BD58E2896064",
         "muted" : false,
         "name" : "1760Hz",
         "patch" : {
@@ -400,6 +400,6 @@
     }
   },
   "formatVersion" : 2,
-  "id" : "D0A03C8F-8693-480F-AB3D-204F010C66C9",
-  "name" : "tj-catch"
+  "id" : "CDD54B18-5344-4D56-A195-5EC0B92949F8",
+  "name" : "toast-juggle-catch"
 }
