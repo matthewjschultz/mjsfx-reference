@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "bindings": [
+    { "trigger": { "cc": { "number": 16, "device": 111 } },
+      "target": { "selectedLayerParam": { "key": "p_base_freq" } },
+      "mode": "relative" },
+    { "trigger": { "note": { "number": 94, "device": 111 } },
+      "target": { "action": { "_0": "playStop" } },
+      "mode": "pickup" },
+    { "trigger": { "cc": { "number": 16, "device": 111 } },
+      "target": { "mainFXParam": { "slug": "reverb", "key": "mix" } },
+      "mode": "relative",
+      "modifier": { "note": { "number": 70, "device": 111 } } }
+  ],
+  "deviceFilterUniqueID": 111,
+  "channelFilter": 0
+}
