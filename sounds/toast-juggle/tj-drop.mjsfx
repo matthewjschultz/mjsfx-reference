@@ -1,0 +1,185 @@
+{
+  "composition" : {
+    "fx" : {
+      "units" : [
+
+      ]
+    },
+    "layers" : [
+      {
+        "colorIndex" : 0,
+        "gain" : 1,
+        "id" : "2393C0DC-577C-437D-B2AD-24CC0D9C6ABE",
+        "muted" : false,
+        "name" : "300Hz",
+        "patch" : {
+          "fx" : {
+            "units" : [
+
+            ]
+          },
+          "modulators" : {
+            "units" : [
+
+            ]
+          },
+          "source" : {
+            "data" : {
+              "core" : {
+                "arpMod" : 0,
+                "arpSpeed" : 0,
+                "baseFreq" : 0.2898862080290164,
+                "duty" : 0,
+                "dutyRamp" : 0,
+                "envAttack" : 0,
+                "envDecay" : 0.29698484809834996,
+                "envPunch" : 0,
+                "envSustain" : 0.02,
+                "freqDramp" : 0,
+                "freqLimit" : 0,
+                "freqRamp" : 0,
+                "hpfFreq" : 0,
+                "hpfRamp" : 0,
+                "lpfFreq" : 1,
+                "lpfRamp" : 0,
+                "lpfResonance" : 0,
+                "phaOffset" : 0,
+                "phaRamp" : 0,
+                "randSeed" : 0,
+                "repeatSpeed" : 0,
+                "sampleRate" : 44100,
+                "sampleSize" : 16,
+                "soundVol" : 1,
+                "vibSpeed" : 0,
+                "vibStrength" : 0,
+                "waveType" : 4
+              }
+            },
+            "schemaVersion" : 1,
+            "slug" : "classic"
+          }
+        },
+        "startOffsetSec" : 0
+      },
+      {
+        "colorIndex" : 1,
+        "gain" : 1,
+        "id" : "933110D7-BB04-4058-985A-83677A624CFE",
+        "muted" : false,
+        "name" : "200Hz",
+        "patch" : {
+          "fx" : {
+            "units" : [
+
+            ]
+          },
+          "modulators" : {
+            "units" : [
+
+            ]
+          },
+          "source" : {
+            "data" : {
+              "core" : {
+                "arpMod" : 0,
+                "arpSpeed" : 0,
+                "baseFreq" : 0.23598589450140472,
+                "duty" : 0,
+                "dutyRamp" : 0,
+                "envAttack" : 0,
+                "envDecay" : 0.3637306695894642,
+                "envPunch" : 0,
+                "envSustain" : 0.02,
+                "freqDramp" : 0,
+                "freqLimit" : 0,
+                "freqRamp" : 0,
+                "hpfFreq" : 0,
+                "hpfRamp" : 0,
+                "lpfFreq" : 1,
+                "lpfRamp" : 0,
+                "lpfResonance" : 0,
+                "phaOffset" : 0,
+                "phaRamp" : 0,
+                "randSeed" : 0,
+                "repeatSpeed" : 0,
+                "sampleRate" : 44100,
+                "sampleSize" : 16,
+                "soundVol" : 1,
+                "vibSpeed" : 0,
+                "vibStrength" : 0,
+                "waveType" : 4
+              }
+            },
+            "schemaVersion" : 1,
+            "slug" : "classic"
+          }
+        },
+        "startOffsetSec" : 0.2
+      },
+      {
+        "colorIndex" : 2,
+        "gain" : 0.8,
+        "id" : "75A28877-1DFA-499A-AB32-25D141C437AF",
+        "muted" : false,
+        "name" : "120Hz",
+        "patch" : {
+          "fx" : {
+            "units" : [
+
+            ]
+          },
+          "modulators" : {
+            "units" : [
+
+            ]
+          },
+          "source" : {
+            "data" : {
+              "core" : {
+                "arpMod" : 0,
+                "arpSpeed" : 0,
+                "baseFreq" : 0.18169646513396145,
+                "duty" : 0,
+                "dutyRamp" : 0,
+                "envAttack" : 0,
+                "envDecay" : 0.4695742752749558,
+                "envPunch" : 0,
+                "envSustain" : 0.02,
+                "freqDramp" : 0,
+                "freqLimit" : 0,
+                "freqRamp" : 0,
+                "hpfFreq" : 0,
+                "hpfRamp" : 0,
+                "lpfFreq" : 1,
+                "lpfRamp" : 0,
+                "lpfResonance" : 0,
+                "phaOffset" : 0,
+                "phaRamp" : 0,
+                "randSeed" : 0,
+                "repeatSpeed" : 0,
+                "sampleRate" : 44100,
+                "sampleSize" : 16,
+                "soundVol" : 1,
+                "vibSpeed" : 0,
+                "vibStrength" : 0,
+                "waveType" : 4
+              }
+            },
+            "schemaVersion" : 1,
+            "slug" : "classic"
+          }
+        },
+        "startOffsetSec" : 0.4
+      }
+    ],
+    "masterGain" : 1,
+    "modulators" : {
+      "units" : [
+
+      ]
+    }
+  },
+  "formatVersion" : 2,
+  "id" : "29B3653C-A2C1-4D8E-B4C5-464BF8C38564",
+  "name" : "tj-drop"
+}
