@@ -8,10 +8,10 @@
     "layers" : [
       {
         "colorIndex" : 0,
-        "gain" : 1,
-        "id" : "2393C0DC-577C-437D-B2AD-24CC0D9C6ABE",
+        "gain" : 0.8,
+        "id" : "F0104EDA-A67D-45C8-B94E-1B9A32048291",
         "muted" : false,
-        "name" : "300Hz",
+        "name" : "523Hz",
         "patch" : {
           "fx" : {
             "units" : [
@@ -28,11 +28,11 @@
               "core" : {
                 "arpMod" : 0,
                 "arpSpeed" : 0,
-                "baseFreq" : 0.2898862080290164,
+                "baseFreq" : 0.3837220744047539,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
-                "envDecay" : 0.29698484809834996,
+                "envDecay" : 0.2571964229922337,
                 "envPunch" : 0,
                 "envSustain" : 0.02,
                 "freqDramp" : 0,
@@ -52,7 +52,7 @@
                 "soundVol" : 1,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
-                "waveType" : 4
+                "waveType" : 2
               }
             },
             "schemaVersion" : 1,
@@ -63,10 +63,10 @@
       },
       {
         "colorIndex" : 1,
-        "gain" : 1,
-        "id" : "933110D7-BB04-4058-985A-83677A624CFE",
+        "gain" : 0.8,
+        "id" : "78E9E285-1840-46DB-9882-6EF8CB8F12ED",
         "muted" : false,
-        "name" : "200Hz",
+        "name" : "659Hz",
         "patch" : {
           "fx" : {
             "units" : [
@@ -83,7 +83,117 @@
               "core" : {
                 "arpMod" : 0,
                 "arpSpeed" : 0,
-                "baseFreq" : 0.23598589450140472,
+                "baseFreq" : 0.4310352459137821,
+                "duty" : 0,
+                "dutyRamp" : 0,
+                "envAttack" : 0,
+                "envDecay" : 0.2571964229922337,
+                "envPunch" : 0,
+                "envSustain" : 0.02,
+                "freqDramp" : 0,
+                "freqLimit" : 0,
+                "freqRamp" : 0,
+                "hpfFreq" : 0,
+                "hpfRamp" : 0,
+                "lpfFreq" : 1,
+                "lpfRamp" : 0,
+                "lpfResonance" : 0,
+                "phaOffset" : 0,
+                "phaRamp" : 0,
+                "randSeed" : 0,
+                "repeatSpeed" : 0,
+                "sampleRate" : 44100,
+                "sampleSize" : 16,
+                "soundVol" : 1,
+                "vibSpeed" : 0,
+                "vibStrength" : 0,
+                "waveType" : 2
+              }
+            },
+            "schemaVersion" : 1,
+            "slug" : "classic"
+          }
+        },
+        "startOffsetSec" : 0.1
+      },
+      {
+        "colorIndex" : 2,
+        "gain" : 0.8,
+        "id" : "DA3D8183-279C-4B47-8757-72AFBF1959CC",
+        "muted" : false,
+        "name" : "784Hz",
+        "patch" : {
+          "fx" : {
+            "units" : [
+
+            ]
+          },
+          "modulators" : {
+            "units" : [
+
+            ]
+          },
+          "source" : {
+            "data" : {
+              "core" : {
+                "arpMod" : 0,
+                "arpSpeed" : 0,
+                "baseFreq" : 0.4703426646841877,
+                "duty" : 0,
+                "dutyRamp" : 0,
+                "envAttack" : 0,
+                "envDecay" : 0.2571964229922337,
+                "envPunch" : 0,
+                "envSustain" : 0.02,
+                "freqDramp" : 0,
+                "freqLimit" : 0,
+                "freqRamp" : 0,
+                "hpfFreq" : 0,
+                "hpfRamp" : 0,
+                "lpfFreq" : 1,
+                "lpfRamp" : 0,
+                "lpfResonance" : 0,
+                "phaOffset" : 0,
+                "phaRamp" : 0,
+                "randSeed" : 0,
+                "repeatSpeed" : 0,
+                "sampleRate" : 44100,
+                "sampleSize" : 16,
+                "soundVol" : 1,
+                "vibSpeed" : 0,
+                "vibStrength" : 0,
+                "waveType" : 2
+              }
+            },
+            "schemaVersion" : 1,
+            "slug" : "classic"
+          }
+        },
+        "startOffsetSec" : 0.2
+      },
+      {
+        "colorIndex" : 3,
+        "gain" : 1,
+        "id" : "DBD7E8B8-B7E5-4303-90A5-5AA235C20E5A",
+        "muted" : false,
+        "name" : "1047Hz",
+        "patch" : {
+          "fx" : {
+            "units" : [
+
+            ]
+          },
+          "modulators" : {
+            "units" : [
+
+            ]
+          },
+          "source" : {
+            "data" : {
+              "core" : {
+                "arpMod" : 0,
+                "arpSpeed" : 0,
+                "baseFreq" : 0.5438462167589228,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -107,69 +217,14 @@
                 "soundVol" : 1,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
-                "waveType" : 4
+                "waveType" : 2
               }
             },
             "schemaVersion" : 1,
             "slug" : "classic"
           }
         },
-        "startOffsetSec" : 0.2
-      },
-      {
-        "colorIndex" : 2,
-        "gain" : 0.8,
-        "id" : "75A28877-1DFA-499A-AB32-25D141C437AF",
-        "muted" : false,
-        "name" : "120Hz",
-        "patch" : {
-          "fx" : {
-            "units" : [
-
-            ]
-          },
-          "modulators" : {
-            "units" : [
-
-            ]
-          },
-          "source" : {
-            "data" : {
-              "core" : {
-                "arpMod" : 0,
-                "arpSpeed" : 0,
-                "baseFreq" : 0.18169646513396145,
-                "duty" : 0,
-                "dutyRamp" : 0,
-                "envAttack" : 0,
-                "envDecay" : 0.4695742752749558,
-                "envPunch" : 0,
-                "envSustain" : 0.02,
-                "freqDramp" : 0,
-                "freqLimit" : 0,
-                "freqRamp" : 0,
-                "hpfFreq" : 0,
-                "hpfRamp" : 0,
-                "lpfFreq" : 1,
-                "lpfRamp" : 0,
-                "lpfResonance" : 0,
-                "phaOffset" : 0,
-                "phaRamp" : 0,
-                "randSeed" : 0,
-                "repeatSpeed" : 0,
-                "sampleRate" : 44100,
-                "sampleSize" : 16,
-                "soundVol" : 1,
-                "vibSpeed" : 0,
-                "vibStrength" : 0,
-                "waveType" : 4
-              }
-            },
-            "schemaVersion" : 1,
-            "slug" : "classic"
-          }
-        },
-        "startOffsetSec" : 0.4
+        "startOffsetSec" : 0.3
       }
     ],
     "masterGain" : 1,
@@ -180,6 +235,6 @@
     }
   },
   "formatVersion" : 2,
-  "id" : "29B3653C-A2C1-4D8E-B4C5-464BF8C38564",
-  "name" : "tj-drop"
+  "id" : "E63DB9F0-F254-40F5-8E08-0187C0C60B65",
+  "name" : "toast-juggle-loaf-complete"
 }

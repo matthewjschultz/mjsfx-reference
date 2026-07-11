@@ -9,7 +9,7 @@
       {
         "colorIndex" : 0,
         "gain" : 1,
-        "id" : "3CED197F-B651-4446-87A8-2E8381BD7433",
+        "id" : "1AC8915B-1588-47B4-AABA-638AE0BA463A",
         "muted" : false,
         "name" : "400Hz",
         "patch" : {
@@ -64,7 +64,7 @@
       {
         "colorIndex" : 1,
         "gain" : 0.7499999999999999,
-        "id" : "5EB209BC-25CD-4A9F-BD15-776049609245",
+        "id" : "C9C3A497-C9FB-4FEF-96EC-0195CABFE091",
         "muted" : false,
         "name" : "250Hz",
         "patch" : {
@@ -119,7 +119,7 @@
       {
         "colorIndex" : 2,
         "gain" : 0.39999999999999997,
-        "id" : "267C39EE-19F5-46A3-A310-2B7DEFE99FAF",
+        "id" : "25A02EAF-7304-4DC0-9517-E2A555621001",
         "muted" : false,
         "name" : "2400Hz",
         "patch" : {
@@ -174,7 +174,7 @@
       {
         "colorIndex" : 3,
         "gain" : 0.39999999999999997,
-        "id" : "774E17D9-0D01-45DF-9F45-E6C59FC29496",
+        "id" : "B95C3856-363F-45D4-A84C-853EF4AA88B1",
         "muted" : false,
         "name" : "2000Hz",
         "patch" : {
@@ -229,7 +229,7 @@
       {
         "colorIndex" : 4,
         "gain" : 0.39999999999999997,
-        "id" : "3F6C298C-CB0E-4683-867E-2C8A5297F7DB",
+        "id" : "A7AE01B9-B823-43E8-BBFC-59B3B5C65198",
         "muted" : false,
         "name" : "1600Hz",
         "patch" : {
@@ -284,7 +284,7 @@
       {
         "colorIndex" : 5,
         "gain" : 0.39999999999999997,
-        "id" : "DA2F67C2-223F-4A05-AFB5-33ACE60B4FA7",
+        "id" : "5951DEE5-EE79-4F73-9C65-813914A7EF4C",
         "muted" : false,
         "name" : "1200Hz",
         "patch" : {
@@ -339,7 +339,7 @@
       {
         "colorIndex" : 6,
         "gain" : 0.39999999999999997,
-        "id" : "D045A843-DF2D-47FE-8E27-046A0944D72C",
+        "id" : "D7EE3959-21DD-46C4-A0B8-F57084584B6A",
         "muted" : false,
         "name" : "900Hz",
         "patch" : {
@@ -394,7 +394,7 @@
       {
         "colorIndex" : 7,
         "gain" : 0.35000000000000003,
-        "id" : "CDD4CF37-8AA6-4F6A-A1B4-60F31E0A54F1",
+        "id" : "B605828A-7176-4491-8381-9D19C05ED9A8",
         "muted" : false,
         "name" : "1900Hz",
         "patch" : {
@@ -449,7 +449,7 @@
       {
         "colorIndex" : 0,
         "gain" : 0.35000000000000003,
-        "id" : "0CB670A7-13CF-481E-BE47-077DB17071CA",
+        "id" : "8B50CA8F-1D54-4F44-BA57-EFB2CE951322",
         "muted" : false,
         "name" : "2300Hz",
         "patch" : {
@@ -504,7 +504,7 @@
       {
         "colorIndex" : 1,
         "gain" : 0.35000000000000003,
-        "id" : "68B9E851-F70D-47FD-850F-1468F6E57AC1",
+        "id" : "072A6A68-23BB-4AF6-9134-D83C2F9998D4",
         "muted" : false,
         "name" : "2700Hz",
         "patch" : {
@@ -559,7 +559,7 @@
       {
         "colorIndex" : 2,
         "gain" : 0.35000000000000003,
-        "id" : "85D8462E-E996-457A-87AC-BB7EF8F97CE9",
+        "id" : "F7349EBB-6C65-48BE-9488-0C97E7F32B3A",
         "muted" : false,
         "name" : "3100Hz",
         "patch" : {
@@ -614,7 +614,7 @@
       {
         "colorIndex" : 3,
         "gain" : 0.35000000000000003,
-        "id" : "B28D858C-563A-4F39-93EC-48344D4684C1",
+        "id" : "21B4F53B-12C3-4C2B-B53F-0B7A52004405",
         "muted" : false,
         "name" : "3500Hz",
         "patch" : {
@@ -669,7 +669,7 @@
       {
         "colorIndex" : 4,
         "gain" : 0.35000000000000003,
-        "id" : "E2D51473-047A-4A91-A08D-043B347D655A",
+        "id" : "145ED196-64C9-4445-926A-34D60CFB8FE8",
         "muted" : false,
         "name" : "3900Hz",
         "patch" : {
@@ -730,6 +730,6 @@
     }
   },
   "formatVersion" : 2,
-  "id" : "5BC26494-161C-41A9-AEAB-F84E0D8C5FF0",
-  "name" : "tj-firework-burst"
+  "id" : "1538CE22-186A-4D78-8E59-0D8C2356AD9D",
+  "name" : "toast-juggle-firework-burst"
 }
