@@ -1,7 +1,7 @@
 # mjsfx-reference
 
-The canonical reference files for [MJSFX](https://mjsfx.app), the macOS design studio for
-sounds and effects.
+The canonical reference files for [MJSFX](https://mjsfx.app), the macOS sounds and effects
+design studio.
 
 | Folder | Contents |
 |---|---|
