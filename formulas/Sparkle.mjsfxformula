@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "name": "Sparkle",
+  "glyph": "✦",
+  "ratios": { "set": "harmonic" },
+  "arrangement": { "type": "scatter", "ms": 80 },
+  "direction": "up",
+  "levelContour": "reciprocal",
+  "durationContour": "shrinking",
+  "timbre": "sine",
+  "defaults": { "layers": 4 },
+  "seed": 1
+}

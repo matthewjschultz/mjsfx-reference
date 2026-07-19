@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "name": "Major Arp",
+  "glyph": "◢",
+  "ratios": { "set": "major" },
+  "arrangement": { "type": "stagger", "ms": 100 },
+  "direction": "up",
+  "levelContour": "equal",
+  "durationContour": "hold-last",
+  "timbre": "sine",
+  "defaults": { "layers": 3 },
+  "seed": 1
+}

@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "name": "DJTT Midi Fighter Twister",
-  "revision": 1,
-  "notes": "Assumes factory defaults: switches in CC Hold, absolute encoders, and the Classic color map (the Expanded map needs different palette anchors).",
+  "revision": 2,
+  "notes": "Assumes factory defaults: switches in CC Hold, absolute encoders, and the Classic color map (the Expanded map needs different palette anchors). A knob used for a relative-mode binding (or the Traversal Encoder) must be switched to Relative (ENC 3FH/41H) in the Midi Fighter Utility - that is the Twister's only relative type, declared below; absolute knobs cannot express detent deltas.",
   "match": {
     "name": "Twister"
   },
+  "relativeEncoding": "offsetBinary",
   "feedback": {
     "buttonLED": {
       "supported": true,

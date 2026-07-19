@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "name": "Run Down",
+  "glyph": "↘",
+  "ratios": { "list": [0.67, 0.4, 0.24, 0.144, 0.086, 0.052, 0.031, 0.019] },
+  "arrangement": { "type": "stagger", "ms": 200 },
+  "direction": "asgiven",
+  "levelContour": "equal",
+  "durationContour": "constant",
+  "timbre": "inherit",
+  "defaults": { "layers": 2 },
+  "seed": 1
+}

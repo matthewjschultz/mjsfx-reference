@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "name": "Octaves",
+  "glyph": "∥",
+  "ratios": { "set": "octaves" },
+  "arrangement": { "type": "simultaneous" },
+  "direction": "asgiven",
+  "levelContour": "reciprocal",
+  "durationContour": "constant",
+  "timbre": "sine",
+  "defaults": { "layers": 2 },
+  "seed": 1
+}

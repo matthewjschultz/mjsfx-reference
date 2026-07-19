@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "name": "Thicken",
+  "glyph": "≋",
+  "ratios": { "list": [0.99, 1.01] },
+  "arrangement": { "type": "simultaneous" },
+  "direction": "asgiven",
+  "levelContour": "equal",
+  "durationContour": "constant",
+  "timbre": "inherit",
+  "defaults": { "layers": 2 },
+  "seed": 1
+}

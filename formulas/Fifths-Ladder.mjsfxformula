@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "name": "Fifths Ladder",
+  "glyph": "⋮",
+  "ratios": { "set": "fifths" },
+  "arrangement": { "type": "stagger", "ms": 60 },
+  "direction": "up",
+  "levelContour": "equal",
+  "durationContour": "shrinking",
+  "timbre": "sine",
+  "defaults": { "layers": 2 },
+  "seed": 1
+}

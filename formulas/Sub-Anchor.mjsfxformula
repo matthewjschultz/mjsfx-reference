@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "name": "Sub Anchor",
+  "glyph": "⌄",
+  "ratios": { "list": [0.5] },
+  "arrangement": { "type": "simultaneous" },
+  "direction": "asgiven",
+  "levelContour": "equal",
+  "durationContour": "constant",
+  "timbre": "sine",
+  "defaults": { "layers": 1 },
+  "seed": 1
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "name": "Harmonic Stack",
+  "glyph": "≡",
+  "ratios": { "set": "harmonic" },
+  "arrangement": { "type": "simultaneous" },
+  "direction": "asgiven",
+  "levelContour": "reciprocal",
+  "durationContour": "constant",
+  "timbre": "sine",
+  "defaults": { "layers": 4 },
+  "seed": 1
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "name": "Run Up",
+  "glyph": "↗",
+  "ratios": { "list": [1.67, 2.5, 3.75, 5.63, 8.44, 12.66, 18.98, 28.48] },
+  "arrangement": { "type": "stagger", "ms": 200 },
+  "direction": "up",
+  "levelContour": "equal",
+  "durationContour": "constant",
+  "timbre": "inherit",
+  "defaults": { "layers": 2 },
+  "seed": 1
+}
