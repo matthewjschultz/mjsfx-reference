@@ -45,11 +45,18 @@
     "#cf5f52"
   ],
   "moduleColors": {
-    "bitcrush": "#2da443",
-    "distortion": "#43cc80",
-    "tremolo": "#2da482",
-    "phaser": "#43ccc9",
-    "delay": "#2d86a4",
-    "reverb": "#4385cc"
+    "bitcrush": "#47a02c",
+    "distortion": "#3ec035",
+    "tremolo": "#4bce58",
+    "phaser": "#2ca04b",
+    "delay": "#35c071",
+    "reverb": "#4bce99",
+    "chorus": "#2ca085",
+    "saturation": "#4bc1ce",
+    "noisegate": "#2c81a0",
+    "compressor": "#3584c0",
+    "limiter": "#4b7fce",
+    "stretch": "#2c47a0",
+    "shaper": "#353ec0"
   }
 }

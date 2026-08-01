@@ -1,9 +1,7 @@
 {
   "composition" : {
     "fx" : {
-      "units" : [
-
-      ]
+      "units" : []
     },
     "layers" : [
       {
@@ -14,14 +12,10 @@
         "name" : "523Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -45,6 +39,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -69,14 +64,10 @@
         "name" : "659Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -100,6 +91,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -124,14 +116,10 @@
         "name" : "784Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -155,6 +143,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -179,14 +168,10 @@
         "name" : "1047Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -210,6 +195,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -229,12 +215,10 @@
     ],
     "masterGain" : 1,
     "modulators" : {
-      "units" : [
-
-      ]
+      "units" : []
     }
   },
-  "formatVersion" : 2,
+  "formatVersion" : 3,
   "id" : "E63DB9F0-F254-40F5-8E08-0187C0C60B65",
   "name" : "toast-juggle-loaf-complete"
 }

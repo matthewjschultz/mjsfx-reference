@@ -1,9 +1,7 @@
 {
   "composition" : {
     "fx" : {
-      "units" : [
-
-      ]
+      "units" : []
     },
     "layers" : [
       {
@@ -14,14 +12,10 @@
         "name" : "300Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -45,6 +39,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -69,14 +64,10 @@
         "name" : "200Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -100,6 +91,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -124,14 +116,10 @@
         "name" : "120Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -155,6 +143,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -174,12 +163,10 @@
     ],
     "masterGain" : 1,
     "modulators" : {
-      "units" : [
-
-      ]
+      "units" : []
     }
   },
-  "formatVersion" : 2,
+  "formatVersion" : 3,
   "id" : "A8A2584E-A4AA-4833-9E0B-2E0370E217F4",
   "name" : "toast-juggle-drop"
 }

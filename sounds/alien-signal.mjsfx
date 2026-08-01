@@ -1,7 +1,8 @@
 {
-  "formatVersion": 2,
+  "formatVersion": 3,
   "id": "07E13BFF-20F6-43A7-9922-759BE21C022D",
   "name": "alien signal",
+  "writtenBy": "1.32 (34)",
   "composition": {
     "masterGain": 1,
     "layers": [
@@ -16,7 +17,7 @@
           "source": {
             "slug": "classic",
             "schemaVersion": 1,
-            "data": { "core": { "baseFreq": 0.12, "envDecay": 0.4, "waveType": 2 } }
+            "data": { "core": { "baseFreq": 0.12, "envDecay": 0.4, "pitchMode": "continuous", "waveType": 2 } }
           },
           "fx": {
             "units": [
@@ -24,8 +25,8 @@
                 "id": "86503856-C3C0-4590-9175-CAA4AA8EA307",
                 "module": {
                   "slug": "distortion",
-                  "schemaVersion": 1,
-                  "data": { "drive": 0.92, "mix": 1, "enabled": true }
+                  "schemaVersion": 2,
+                  "data": { "driveDb": 34, "snarl": 0.5, "voice": 0, "fold": 0.95, "tone": 0.55, "mix": 1, "enabled": true }
                 }
               }
             ]

@@ -1,9 +1,7 @@
 {
   "composition" : {
     "fx" : {
-      "units" : [
-
-      ]
+      "units" : []
     },
     "layers" : [
       {
@@ -14,14 +12,10 @@
         "name" : "400Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -45,6 +39,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -69,14 +64,10 @@
         "name" : "250Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -100,6 +91,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -124,14 +116,10 @@
         "name" : "2400Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -155,6 +143,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -179,14 +168,10 @@
         "name" : "2000Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -210,6 +195,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -234,14 +220,10 @@
         "name" : "1600Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -265,6 +247,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -289,14 +272,10 @@
         "name" : "1200Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -320,6 +299,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -344,14 +324,10 @@
         "name" : "900Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -375,6 +351,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -399,14 +376,10 @@
         "name" : "1900Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -430,6 +403,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -454,14 +428,10 @@
         "name" : "2300Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -485,6 +455,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -509,14 +480,10 @@
         "name" : "2700Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -540,6 +507,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -564,14 +532,10 @@
         "name" : "3100Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -595,6 +559,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -619,14 +584,10 @@
         "name" : "3500Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -650,6 +611,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -674,14 +636,10 @@
         "name" : "3900Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -705,6 +663,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -724,12 +683,10 @@
     ],
     "masterGain" : 1,
     "modulators" : {
-      "units" : [
-
-      ]
+      "units" : []
     }
   },
-  "formatVersion" : 2,
+  "formatVersion" : 3,
   "id" : "1538CE22-186A-4D78-8E59-0D8C2356AD9D",
   "name" : "toast-juggle-firework-burst"
 }

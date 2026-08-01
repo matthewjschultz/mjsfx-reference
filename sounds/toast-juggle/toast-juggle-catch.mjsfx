@@ -1,9 +1,7 @@
 {
   "composition" : {
     "fx" : {
-      "units" : [
-
-      ]
+      "units" : []
     },
     "layers" : [
       {
@@ -14,14 +12,10 @@
         "name" : "1800Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -45,6 +39,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -69,14 +64,10 @@
         "name" : "55Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -100,6 +91,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -124,14 +116,10 @@
         "name" : "110Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -155,6 +143,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -179,14 +168,10 @@
         "name" : "220Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -210,6 +195,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -234,14 +220,10 @@
         "name" : "440Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -265,6 +247,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -289,14 +272,10 @@
         "name" : "880Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -320,6 +299,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -344,14 +324,10 @@
         "name" : "1760Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -375,6 +351,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -394,12 +371,10 @@
     ],
     "masterGain" : 1,
     "modulators" : {
-      "units" : [
-
-      ]
+      "units" : []
     }
   },
-  "formatVersion" : 2,
+  "formatVersion" : 3,
   "id" : "CDD54B18-5344-4D56-A195-5EC0B92949F8",
   "name" : "toast-juggle-catch"
 }

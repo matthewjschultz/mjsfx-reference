@@ -1,9 +1,7 @@
 {
   "composition" : {
     "fx" : {
-      "units" : [
-
-      ]
+      "units" : []
     },
     "layers" : [
       {
@@ -14,14 +12,10 @@
         "name" : "800Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -45,6 +39,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -69,14 +64,10 @@
         "name" : "1200Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -100,6 +91,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -124,14 +116,10 @@
         "name" : "1800Hz",
         "patch" : {
           "fx" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "modulators" : {
-            "units" : [
-
-            ]
+            "units" : []
           },
           "source" : {
             "data" : {
@@ -155,6 +143,7 @@
                 "lpfResonance" : 0,
                 "phaOffset" : 0,
                 "phaRamp" : 0,
+                "pitchMode" : "quantized",
                 "randSeed" : 0,
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
@@ -174,12 +163,10 @@
     ],
     "masterGain" : 1,
     "modulators" : {
-      "units" : [
-
-      ]
+      "units" : []
     }
   },
-  "formatVersion" : 2,
+  "formatVersion" : 3,
   "id" : "7C41CEEE-2150-4616-A123-29B5E528D7B6",
   "name" : "toast-juggle-firework-launch"
 }
