@@ -1,7 +1,9 @@
 {
   "composition" : {
     "fx" : {
-      "units" : []
+      "units" : [
+
+      ]
     },
     "layers" : [
       {
@@ -12,10 +14,14 @@
         "name" : "400Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -23,6 +29,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 0.335229301832725,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -32,8 +43,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -44,13 +58,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 0
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -64,10 +84,14 @@
         "name" : "250Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -75,6 +99,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 0.26431359784266706,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -84,8 +113,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -96,13 +128,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 2
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -116,10 +154,14 @@
         "name" : "2400Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -127,6 +169,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 0.8241796581107407,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -136,8 +183,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -148,13 +198,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 2
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -168,10 +224,14 @@
         "name" : "2000Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -179,6 +239,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 0.7522588809952869,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -188,8 +253,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -200,13 +268,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 2
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -220,10 +294,14 @@
         "name" : "1600Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -231,6 +309,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 0.6726921578471277,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -240,8 +323,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -252,13 +338,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 2
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -272,10 +364,14 @@
         "name" : "1200Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -283,6 +379,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 0.5823538910505953,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -292,8 +393,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -304,13 +408,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 2
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -324,10 +434,14 @@
         "name" : "900Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -335,6 +449,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 0.504085350725774,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -344,8 +463,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -356,13 +478,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 2
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -376,10 +504,14 @@
         "name" : "1900Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -387,6 +519,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 0.7331771633339838,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -396,8 +533,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -408,13 +548,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 2
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -428,10 +574,14 @@
         "name" : "2300Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -439,6 +589,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 0.8068007422168892,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -448,8 +603,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -460,13 +618,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 2
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -480,10 +644,14 @@
         "name" : "2700Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -491,6 +659,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 0.8742460308454248,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -500,8 +673,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -512,13 +688,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 2
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -532,10 +714,14 @@
         "name" : "3100Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -543,6 +729,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 0.9368483373824367,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -552,8 +743,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -564,13 +758,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 2
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -584,10 +784,14 @@
         "name" : "3500Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -595,6 +799,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 0.9955217185292805,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -604,8 +813,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -616,13 +828,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 2
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -636,10 +854,14 @@
         "name" : "3900Hz",
         "patch" : {
           "fx" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "modulators" : {
-            "units" : []
+            "units" : [
+
+            ]
           },
           "source" : {
             "data" : {
@@ -647,6 +869,11 @@
                 "arpMod" : 0,
                 "arpSpeed" : 0,
                 "baseFreq" : 1.0509244391823556,
+                "bitClock" : 1,
+                "bitClockRamp" : 0,
+                "bitClockState" : "free",
+                "bitMode" : "short",
+                "bitSeed" : 32767,
                 "duty" : 0,
                 "dutyRamp" : 0,
                 "envAttack" : 0,
@@ -656,8 +883,11 @@
                 "freqDramp" : 0,
                 "freqLimit" : 0,
                 "freqRamp" : 0,
+                "gaussSigma" : 0.1,
                 "hpfFreq" : 0,
                 "hpfRamp" : 0,
+                "lorentzDeriv" : "pulse",
+                "lorentzGamma" : 0.05,
                 "lpfFreq" : 1,
                 "lpfRamp" : 0,
                 "lpfResonance" : 0,
@@ -668,13 +898,19 @@
                 "repeatSpeed" : 0,
                 "sampleRate" : 44100,
                 "sampleSize" : 16,
+                "sharkMode" : "riseFall",
+                "sharkTau" : 0.15,
+                "sincZeros" : 6,
                 "soundVol" : 1,
+                "stairLevels" : 8,
+                "stairShape" : "ramp",
+                "trapRise" : 0.08,
                 "vibSpeed" : 0,
                 "vibStrength" : 0,
                 "waveType" : 2
               }
             },
-            "schemaVersion" : 1,
+            "schemaVersion" : 2,
             "slug" : "classic"
           }
         },
@@ -683,10 +919,12 @@
     ],
     "masterGain" : 1,
     "modulators" : {
-      "units" : []
+      "units" : [
+
+      ]
     }
   },
-  "formatVersion" : 3,
+  "formatVersion" : 5,
   "id" : "1538CE22-186A-4D78-8E59-0D8C2356AD9D",
   "name" : "toast-juggle-firework-burst"
 }
