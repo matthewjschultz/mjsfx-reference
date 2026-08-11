@@ -16,7 +16,7 @@ Every file format is documented at [mjsfx.app/reference](https://mjsfx.app/refer
 enough to write a file from scratch.
 
 **Which MJSFX opens these sounds.** The `.mjsfx` files here are re-published from the current
-source tree, so they carry the current file version, **6**, which needs **MJSFX v1.37 or later**.
+source tree, so they carry the current file version, **7**, which needs **MJSFX v1.38 or later**.
 A build opens its own version and every earlier one, and refuses anything newer rather than
 loading it partly. That applies even when a sound uses nothing the newer version added: saving
 always writes the current version. The file version to app version table is in the
