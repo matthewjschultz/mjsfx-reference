@@ -1,0 +1,95 @@
+{
+  "schemaVersion" : 1,
+  "name" : "Dirt · Space",
+  "axes" : [
+    {
+      "id" : "dirt",
+      "negative" : {
+        "name" : "cleaner",
+        "moves" : [
+          {
+            "target" : "fx.distortion.driveDb",
+            "to" : "min"
+          },
+          {
+            "target" : "fx.distortion.mix",
+            "to" : "min"
+          },
+          {
+            "target" : "fx.bitcrush.bits",
+            "to" : "max",
+            "scale" : 0.75
+          },
+          {
+            "target" : "fx.bitcrush.rate",
+            "to" : "max",
+            "scale" : 0.35
+          }
+        ]
+      },
+      "positive" : {
+        "name" : "dirtier",
+        "moves" : [
+          {
+            "target" : "fx.distortion.driveDb",
+            "to" : "max",
+            "insert" : {
+              "driveDb" : 0,
+              "mix" : 0
+            }
+          },
+          {
+            "target" : "fx.distortion.mix",
+            "to" : "max",
+            "insert" : {
+              "driveDb" : 0,
+              "mix" : 0
+            }
+          },
+          {
+            "target" : "fx.bitcrush.bits",
+            "to" : "min",
+            "scale" : 0.75
+          },
+          {
+            "target" : "fx.bitcrush.rate",
+            "to" : "min",
+            "scale" : 0.35
+          }
+        ]
+      }
+    },
+    {
+      "id" : "space",
+      "negative" : {
+        "name" : "drier",
+        "moves" : [
+          {
+            "target" : "fx.reverb.mix",
+            "to" : "min"
+          },
+          {
+            "target" : "fx.delay.mix",
+            "to" : "min"
+          }
+        ]
+      },
+      "positive" : {
+        "name" : "wetter",
+        "moves" : [
+          {
+            "target" : "fx.reverb.mix",
+            "to" : "max",
+            "insert" : {
+              "mix" : 0
+            }
+          },
+          {
+            "target" : "fx.delay.mix",
+            "to" : "max"
+          }
+        ]
+      }
+    }
+  ]
+}

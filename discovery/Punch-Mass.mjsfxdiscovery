@@ -1,0 +1,89 @@
+{
+  "schemaVersion" : 1,
+  "name" : "Punch · Mass",
+  "axes" : [
+    {
+      "id" : "punch",
+      "negative" : {
+        "name" : "softer",
+        "moves" : [
+          {
+            "target" : "core.envPunch",
+            "to" : 0
+          },
+          {
+            "target" : "core.envAttack",
+            "to" : "max",
+            "scale" : 0.3
+          }
+        ]
+      },
+      "positive" : {
+        "name" : "punchier",
+        "moves" : [
+          {
+            "target" : "core.envPunch",
+            "to" : "max"
+          },
+          {
+            "target" : "core.envAttack",
+            "to" : 0
+          }
+        ]
+      }
+    },
+    {
+      "id" : "mass",
+      "negative" : {
+        "name" : "thinner",
+        "moves" : [
+          {
+            "target" : "fx.chorus.mix",
+            "to" : "min"
+          },
+          {
+            "target" : "fx.chorus.depth",
+            "to" : "min",
+            "scale" : 0.6
+          },
+          {
+            "target" : "core.ssawDetune",
+            "to" : "min"
+          },
+          {
+            "target" : "core.ssawMix",
+            "to" : "min"
+          }
+        ]
+      },
+      "positive" : {
+        "name" : "thicker",
+        "moves" : [
+          {
+            "target" : "fx.chorus.mix",
+            "to" : "max",
+            "insert" : {
+              "mix" : 0
+            }
+          },
+          {
+            "target" : "fx.chorus.depth",
+            "to" : "max",
+            "scale" : 0.6,
+            "insert" : {
+              "mix" : 0
+            }
+          },
+          {
+            "target" : "core.ssawDetune",
+            "to" : "max"
+          },
+          {
+            "target" : "core.ssawMix",
+            "to" : "max"
+          }
+        ]
+      }
+    }
+  ]
+}

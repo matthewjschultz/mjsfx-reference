@@ -1,0 +1,164 @@
+{
+  "schemaVersion" : 1,
+  "name" : "Classic",
+  "axes" : [
+    {
+      "id" : "brightness",
+      "negative" : {
+        "name" : "darker",
+        "moves" : [
+          {
+            "target" : "core.lpfFreq",
+            "to" : "min"
+          },
+          {
+            "target" : "core.hpfFreq",
+            "to" : "min",
+            "scale" : 0.5
+          },
+          {
+            "target" : "core.duty",
+            "to" : 0
+          }
+        ]
+      },
+      "positive" : {
+        "name" : "brighter",
+        "moves" : [
+          {
+            "target" : "core.lpfFreq",
+            "to" : "max"
+          },
+          {
+            "target" : "core.hpfFreq",
+            "to" : "max",
+            "scale" : 0.5
+          },
+          {
+            "target" : "core.duty",
+            "to" : 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id" : "length",
+      "negative" : {
+        "name" : "shorter",
+        "moves" : [
+          {
+            "target" : "core.envSustain",
+            "to" : "min"
+          },
+          {
+            "target" : "core.envDecay",
+            "to" : "min"
+          },
+          {
+            "target" : "core.envAttack",
+            "to" : "min"
+          }
+        ]
+      },
+      "positive" : {
+        "name" : "longer",
+        "moves" : [
+          {
+            "target" : "core.envSustain",
+            "to" : "max"
+          },
+          {
+            "target" : "core.envDecay",
+            "to" : "max"
+          },
+          {
+            "target" : "core.envAttack",
+            "to" : "max"
+          }
+        ]
+      }
+    },
+    {
+      "id" : "pitch",
+      "negative" : {
+        "name" : "lower",
+        "moves" : [
+          {
+            "target" : "core.baseFreq",
+            "to" : "min"
+          }
+        ]
+      },
+      "positive" : {
+        "name" : "higher",
+        "moves" : [
+          {
+            "target" : "core.baseFreq",
+            "to" : "max"
+          }
+        ]
+      }
+    },
+    {
+      "id" : "motion",
+      "negative" : {
+        "name" : "steadier",
+        "moves" : [
+          {
+            "target" : "core.vibStrength",
+            "to" : 0
+          },
+          {
+            "target" : "core.arpMod",
+            "to" : 0
+          },
+          {
+            "target" : "core.freqDramp",
+            "to" : 0
+          },
+          {
+            "target" : "core.dutyRamp",
+            "to" : 0
+          },
+          {
+            "target" : "core.lpfRamp",
+            "to" : 0
+          },
+          {
+            "target" : "core.phaRamp",
+            "to" : 0
+          }
+        ]
+      },
+      "positive" : {
+        "name" : "wilder",
+        "moves" : [
+          {
+            "target" : "core.vibStrength",
+            "to" : "edge"
+          },
+          {
+            "target" : "core.arpMod",
+            "to" : "edge"
+          },
+          {
+            "target" : "core.freqDramp",
+            "to" : "edge"
+          },
+          {
+            "target" : "core.dutyRamp",
+            "to" : "edge"
+          },
+          {
+            "target" : "core.lpfRamp",
+            "to" : "edge"
+          },
+          {
+            "target" : "core.phaRamp",
+            "to" : "edge"
+          }
+        ]
+      }
+    }
+  ]
+}

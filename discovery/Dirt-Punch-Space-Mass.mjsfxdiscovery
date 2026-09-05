@@ -1,0 +1,178 @@
+{
+  "schemaVersion" : 1,
+  "name" : "Dirt · Punch · Space · Mass",
+  "axes" : [
+    {
+      "id" : "dirt",
+      "negative" : {
+        "name" : "cleaner",
+        "moves" : [
+          {
+            "target" : "fx.distortion.driveDb",
+            "to" : "min"
+          },
+          {
+            "target" : "fx.distortion.mix",
+            "to" : "min"
+          },
+          {
+            "target" : "fx.bitcrush.bits",
+            "to" : "max",
+            "scale" : 0.75
+          },
+          {
+            "target" : "fx.bitcrush.rate",
+            "to" : "max",
+            "scale" : 0.35
+          }
+        ]
+      },
+      "positive" : {
+        "name" : "dirtier",
+        "moves" : [
+          {
+            "target" : "fx.distortion.driveDb",
+            "to" : "max",
+            "insert" : {
+              "driveDb" : 0,
+              "mix" : 0
+            }
+          },
+          {
+            "target" : "fx.distortion.mix",
+            "to" : "max",
+            "insert" : {
+              "driveDb" : 0,
+              "mix" : 0
+            }
+          },
+          {
+            "target" : "fx.bitcrush.bits",
+            "to" : "min",
+            "scale" : 0.75
+          },
+          {
+            "target" : "fx.bitcrush.rate",
+            "to" : "min",
+            "scale" : 0.35
+          }
+        ]
+      }
+    },
+    {
+      "id" : "punch",
+      "negative" : {
+        "name" : "softer",
+        "moves" : [
+          {
+            "target" : "core.envPunch",
+            "to" : 0
+          },
+          {
+            "target" : "core.envAttack",
+            "to" : "max",
+            "scale" : 0.3
+          }
+        ]
+      },
+      "positive" : {
+        "name" : "punchier",
+        "moves" : [
+          {
+            "target" : "core.envPunch",
+            "to" : "max"
+          },
+          {
+            "target" : "core.envAttack",
+            "to" : 0
+          }
+        ]
+      }
+    },
+    {
+      "id" : "space",
+      "negative" : {
+        "name" : "drier",
+        "moves" : [
+          {
+            "target" : "fx.reverb.mix",
+            "to" : "min"
+          },
+          {
+            "target" : "fx.delay.mix",
+            "to" : "min"
+          }
+        ]
+      },
+      "positive" : {
+        "name" : "wetter",
+        "moves" : [
+          {
+            "target" : "fx.reverb.mix",
+            "to" : "max",
+            "insert" : {
+              "mix" : 0
+            }
+          },
+          {
+            "target" : "fx.delay.mix",
+            "to" : "max"
+          }
+        ]
+      }
+    },
+    {
+      "id" : "mass",
+      "negative" : {
+        "name" : "thinner",
+        "moves" : [
+          {
+            "target" : "fx.chorus.mix",
+            "to" : "min"
+          },
+          {
+            "target" : "fx.chorus.depth",
+            "to" : "min",
+            "scale" : 0.6
+          },
+          {
+            "target" : "core.ssawDetune",
+            "to" : "min"
+          },
+          {
+            "target" : "core.ssawMix",
+            "to" : "min"
+          }
+        ]
+      },
+      "positive" : {
+        "name" : "thicker",
+        "moves" : [
+          {
+            "target" : "fx.chorus.mix",
+            "to" : "max",
+            "insert" : {
+              "mix" : 0
+            }
+          },
+          {
+            "target" : "fx.chorus.depth",
+            "to" : "max",
+            "scale" : 0.6,
+            "insert" : {
+              "mix" : 0
+            }
+          },
+          {
+            "target" : "core.ssawDetune",
+            "to" : "max"
+          },
+          {
+            "target" : "core.ssawMix",
+            "to" : "max"
+          }
+        ]
+      }
+    }
+  ]
+}
